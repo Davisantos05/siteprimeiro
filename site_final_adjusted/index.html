@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jogo eFootball</title>
+
+  <link rel="stylesheet" href="css/estilo.css" />
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+<div class="container">
+  <div class="logo">
+    <a href="index.html">
+      <img src="img/logo.png" alt="Logo Efootball">
+    </a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#sobre">O que é?</a></li>
+      <li><a href="#como">Como funciona?</a></li>
+      <li><a href="#acao">Funcionalidades</a></li>
+      <li><a href="#aplicacoes">Galeria</a></li>
+      <li><a href="contato.html">Contato</a></li>
+      <li><a href="jogo.html">Jogos interativos</a></li>
+    </ul>
+  </nav>
+</div>
+  </header>
+
+  <!-- Banner com container para limitar largura do texto -->
+  <section id="inicio" class="banner">
+    <div class="container">
+      <h1>Sejam bem-vindos!</h1>
+      <p>Vamos Conhecer Melhor o Jogo de Futebol!</p>
+    </div>
+  </section>
+
+  <main>
+    <!-- Seção Sobre -->
+    <section id="sobre">
+      <div class="sobre-container">
+        <div class="sobre-texto">
+          <h1>O que é eFootball?</h1>
+          <p>eFootball é um jogo de futebol digital desenvolvido pela Konami, que substituiu a antiga franquia Pro Evolution Soccer (PES). Lançado em 2021, eFootball se destaca por ser uma plataforma free-to-play (gratuita para jogar), com atualizações constantes e foco na experiência online. Ele oferece uma simulação de futebol realista, onde os jogadores podem montar seus próprios times, disputar partidas online e participar de eventos semanais.</p>
+          <p>A Konami transformou o modelo tradicional de lançamento anual em um serviço contínuo, oferecendo novos conteúdos sazonais em vez de lançar novas versões todo ano. A proposta é manter o jogo sempre atualizado com base no futebol real, agregando valor para fãs do esporte em todo o mundo.</p>
+          <p class="fonte">Fonte: <a href="https://my.konami.net/en_GB" target="_blank" rel="noopener">Konami</a></p>
+        </div>
+
+        <div class="hex-grid">
+          <div class="hex"><img src="img/imagenssobre/1.png" alt="Um homem avatar com chip no olho" /></div>
+          <div class="hex"><img src="img/imagenssobre/2.png" alt="Robô de frente branco" /></div>
+          <div class="hex"><img src="img/imagenssobre/3.png" alt="Mulher avatar com chip" /></div>
+          <div class="hex"><img src="img/imagenssobre/1.png" alt="Um homem avatar com chip no olho" /></div>
+          <div class="hex"><img src="img/imagenssobre/2.png" alt="Robô de frente branco" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Como Funciona -->
+    <section id="como">
+      <div class="sobre-container">
+        <div class="sobre-texto">
+          <h2>Como Funciona?</h2>
+          <p>eFootball utiliza tecnologias avançadas de gráficos e física (Unreal Engine 4) para proporcionar uma experiência fluida e realista. Os modos principais se baseiam em partidas online, como o Dream Team, onde os jogadores contratam atletas reais, treinam suas equipes e competem globalmente.</p>
+          <p>A jogabilidade é ajustada com base no feedback da comunidade. O jogo usa dados reais de jogadores e times, influenciando estatísticas e desempenho. É multiplataforma (console, PC e mobile).</p>
+          <p class="fonte">Fonte: <a href="https://br.ign.com/konami-1" target="_blank" rel="noopener">Konami, IGN</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Funcionalidades -->
+    <section id="acao">
+      <h1 class="centraliza">Algumas funcionalidades do eFootball</h1>
+      <div class="container">
+
+        <div class="item">
+          <div class="imagem"><img class="card" src="img/cards/machinelearn.png" alt="Dream Team" /></div>
+          <h3>🎯 1. Dream Team</h3>
+          <p>Monte seu time dos sonhos com atletas reais, personalize a formação e dispute partidas online para ganhar recompensas e evoluir a equipe.</p>
+          <a href="#modal1" class="btn">Saiba mais</a>
+        </div>
+
+        <div class="item">
+          <div class="imagem"><img class="card" src="img/cards/visocomputacional.png" alt="Inteligência Artificial Dinâmica" /></div>
+          <h3>🧠 2. Inteligência Artificial Dinâmica</h3>
+          <p>IA controla jogadores não-humanos no ataque e defesa, tomando decisões táticas em tempo real e se ajustando ao contexto da partida.</p>
+          <a href="#modal2" class="btn">Saiba mais</a>
+        </div>
+
+        <div class="item">
+          <div class="imagem"><img class="card" src="img/cards/pln.png" alt="Atualizações em Tempo Real" /></div>
+          <h3>📊 3. Live Update</h3>
+          <p>Desempenho dos atletas e equipes é atualizado conforme o mundo real, refletindo a forma semanal em ligas e campeonatos.</p>
+          <a href="#modal3" class="btn">Saiba mais</a>
+        </div>
+
+        <div class="item">
+          <div class="imagem"><img class="card" src="img/cards/generativa.png" alt="Cross-Platform" /></div>
+          <h3>🌐 4. Cross-Platform</h3>
+          <p>Partidas entre jogadores de PC, consoles e smartphones, com servidores unificados e balanceamento de jogabilidade.</p>
+          <a href="#modal4" class="btn">Saiba mais</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Galeria -->
+    <section id="aplicacoes">
+      <h1 class="centraliza">Galeria dos famosos jogadores</h1>
+      <div class="container">
+        <div class="galeria">
+          <img src="img/galeria/ap.png" alt="Imagem 1" />
+          <img src="img/galeria/ap1.png" alt="Imagem 2" />
+          <img src="img/galeria/ap2.png" alt="Imagem 3" />
+          <img src="img/galeria/ap3.png" alt="Imagem 4" />
+        </div>
+
+        <div class="preto">
+          <a href="tabela.html"><h2>Clique para mais estatística...</h2></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="centraliza">Criado Por Davi Luís - Todos os Direitos Reservados</p>
+  </footer>
+
+  <!-- MODAIS -->
+  <div class="card">
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h3 class="centraliza-mod">Dream Team</h3>
+        <p><strong>Saiba mais:</strong> Combine jogadores, treinadores e táticas; gerencie moedas e pontos; evolua atletas conforme desempenho; ganhe recompensas em partidas e eventos.</p>
+        <a href="#" onclick="history.back();" class="close-btn">Fechar</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <h3 class="centraliza-mod">Inteligência Artificial Dinâmica</h3>
+        <p><strong>Saiba mais:</strong> Algoritmos interpretam passes, desarmes e posicionamento; comportamentos se adaptam com dados das partidas para maior realismo.</p>
+        <a href="#" onclick="history.back();" class="close-btn">Fechar</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div id="modal3" class="modal">
+      <div class="modal-content">
+        <h3 class="centraliza-mod">Live Update</h3>
+        <p><strong>Saiba mais:</strong> Ajustes semanais de atributos (forma física, moral, habilidades) com base em partidas reais, exigindo decisões táticas atualizadas.</p>
+        <a href="#" onclick="history.back();" class="close-btn">Fechar</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div id="modal4" class="modal">
+      <div class="modal-content">
+        <h3 class="centraliza-mod">Cross-Platform</h3>
+        <p><strong>Saiba mais:</strong> Servidores unificados e balanceamento para partidas justas entre plataformas diferentes (PC, consoles e mobile).</p>
+        <a href="#" onclick="history.back();" class="close-btn">Fechar</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

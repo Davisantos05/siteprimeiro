@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efootball</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="img/img/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+<div class="container">
+  <div class="logo">
+    <a href="index.html">
+      <img src="img/logo.png" alt="Logo Efootball">
+    </a>
+  </div>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="index.html#sobre">O que é ?</a></li>
+                    <li><a href="index.html#acao">Funcionalidades</a></li>
+                    <li><a href="index.html#aplicacoes">Galerias</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="inicio" class="bannercontato">
+        <h1>Entre em Contato!</h1>
+        <p>Contrate serviços da Konami</p>
+    </section>
+    <main>
+        <section id="contato"> 
+            <div class="container">
+                <h1 class="centraliza">Contato</h1>
+                
+                <!-- Formulário unificado -->
+                <form class="formulario-contato" action="https://formsubmit.co/daviluis.fsantos308@gmail.com" method="POST">
+                    
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <div class="grupo-form">
+                      <label for="nome">Nome completo:</label>
+                      <input type="text" id="nome" name="nome" required>
+                    </div>
+              
+                    <div class="grupo-form">
+                      <label for="email">E-mail:</label>
+                      <input type="email" id="email" name="email" required>
+                    </div>
+              
+                    <div class="grupo-form">
+                      <label for="idade">Idade:</label>
+                      <input type="number" id="idade" name="idade" min="10" max="120">
+                    </div>
+              
+                    <div class="grupo-form">
+                      <label for="data">Data da consulta:</label>
+                      <input type="date" id="data" name="data">
+                    </div>
+              
+                    <div class="grupo-form">
+                      <label for="area">Qual sua sugestão?</label>
+                      <select id="area" name="area">
+                        <option value="Cor do site">Cor do site</option>
+                        <option value="Erro na escrita">Erro na escrita</option>
+                        <option value="Erro no jogo">Erro no jogo</option>
+                        <option value="Duvidas">Dúvidas?</option>
+                      </select>
+                    </div>
+              
+                    <div class="grupo-form">
+                      <label>Grau de interesse:</label>
+                      <input type="range" min="0" max="100" name="interesse">
+                    </div>
+              
+                    <div class="grupo-form">
+                      <label>Gênero:</label>
+                      <input type="radio" name="genero" value="Feminino"> Feminino
+                      <input type="radio" name="genero" value="Masculino"> Masculino
+                      <input type="radio" name="genero" value="Outro"> Outro
+                    </div>
+              
+                    <div class="grupo-form">
+                      <label>Quais desses jogos você já utilizou?</label>
+                      <input type="checkbox" name="uso[]" value="Fifa"> Fifa
+                      <input type="checkbox" name="uso[]" value="Bombapet"> Bombapet
+                      <input type="checkbox" name="uso[]" value="Pes"> Pes
+                      <input type="checkbox" name="uso[]" value="Ea sports"> Ea Sports
+                    </div>
+              
+            
+                    <div class="grupo-form">
+                      <label for="cor">Escolha sua cor preferida de interface:</label>
+                      <input type="color" id="cor" name="cor">
+                    </div>
+              
+                    <div class="grupo-form">
+                      <label for="mensagem">Feedback:</label>
+                      <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+                    </div>
+              
+                    <div class="grupo-form centraliza">
+                      <button type="submit" class="btn">Enviar</button>
+                      <input type="hidden" name="_next" value="https://Davisantos05.github.io/meuprimeirosite/obrigado.html">       
+                                        
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>2025 - Criado por Davi Luis - Todos os Direitos Reservados</p>
+    </footer>      
+</body>
+</html>
